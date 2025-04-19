@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{8dc00e1e-c63b-425b-8f19-00cf3400d6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{3c12a090-e347-494d-8621-006d599be5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python_scripts">
+      <UniqueIdentifier>{a50f5885-8c62-493a-a542-614f2f213ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{fc8dec7a-65e9-4d23-af0d-3dcd36d24cbc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleDetector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="HelmetDetector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkServer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LicensePlateDetector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HelmetDetector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LicensePlateDetector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleDetector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="helmet_detect.py">
+      <Filter>python_scripts</Filter>
+    </None>
+  </ItemGroup>
+</Project>
